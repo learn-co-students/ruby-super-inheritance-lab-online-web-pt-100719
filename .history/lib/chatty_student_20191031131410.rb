@@ -1,4 +1,3 @@
-require 'pry'
 class ChattyStudent < Student
 
   def hello
@@ -7,15 +6,6 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-    super
-    super
-    super
-    super
-    super
-    super
-    super
-    super
-    super
-    super
+    super.each {|hand| puts hand * 10}
   end
 end

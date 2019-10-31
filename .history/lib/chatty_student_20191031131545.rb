@@ -19,3 +19,4 @@ class ChattyStudent < Student
     super
   end
 end
+binding.pry
